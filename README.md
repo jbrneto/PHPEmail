@@ -8,7 +8,9 @@ Email desenvolvido em 2 semanas e meia com tecnologias:
   - HTML
   - CSS (responsivo)
   - Javascript
+
 Especificações funcionais:
+
   - Envia/responde emails
   - Recebe emails
   - Escreve, salva e envia rascunhos
