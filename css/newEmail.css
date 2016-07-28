@@ -1,0 +1,118 @@
+.bodyNew{
+	margin:0px;
+}
+.corpoNewEmail{
+	margin:0px;
+	width:100%;
+	display:table;
+}
+.container{
+	width:97%;
+	margin: 0 auto 0 auto;
+}
+/*HEADER CSS*/
+.headerNewEmail{
+	width: 100%;
+	background-color:rgba(0,110,255,1);
+}
+.headerNewEmail ul{
+	list-style:none;
+	padding-left:0px;
+}
+.headerNewEmail ul li{
+	display:inline-block;
+	width:auto;
+	margin:2px;
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 3px;
+	font-size:12px;
+	cursor:pointer;
+}
+.headerNewEmail ul li:hover{
+	background-color: white;
+}
+.headerNewEmail img{
+	display:inline-block;
+	margin-right:5px;
+}
+.headerNewEmail figcaption{
+	display:inline-block;
+	vertical-align:top;
+	font-size:14px;
+}
+figure{
+	margin:2px;
+}
+
+.logMob{
+	position:relative;
+	display:none;
+	margin: 5 2px;
+	width:96%;
+	padding: 10 5px;
+	border-radius:2px 5px;
+}
+.success{
+	background-color:rgb(7,193,69);
+}
+.error{
+	background-color:rgb(235,41,31);
+}
+.logMob p{
+	margin:0px;
+	color: white;
+	font-style:bold;
+}
+.logMob figure{
+	position:absolute;
+	top:2px;
+	right:2px;
+	margin:0px;
+	cursor:pointer;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+.logMob figure:hover{
+	background-color:white;
+}
+
+.corpoNewEmail main{
+	display:block;
+	margin:0px;
+	padding-left:3px;
+	width:99%;
+}
+.mainNewEmail main form{
+	margin:0px;
+	width:99%;
+}
+
+
+/*FORM CSS*/
+.mainNewEmail form input, textarea{
+	width:99%;
+	padding:15px;
+	border: 1px solid rgba(0,110,255,1);
+	border-radius: 2px;
+	margin: 5 0px;
+}
+.mainNewEmail textarea{
+	overflow-y:auto;
+	width:99%;
+	resize:none;
+}
+.mainNewEmail form input[type="submit"]{
+	cursor:pointer;
+	color:white;
+	background-color:rgba(0,110,255,1);
+}
+.mainNewEmail form input[type="submit"]:hover{
+	color: rgba(0,110,255,1);
+	background-color: white;
+}
+@media (min-width:670px){
+	.headerNewEmail figcaption{
+		font-size:17px;
+	}
+}

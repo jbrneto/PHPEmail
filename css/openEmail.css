@@ -1,0 +1,80 @@
+.bodyOpen{
+	margin:0px;
+}
+.corpoOpenEmail{
+	margin:0px;
+	width:100%;
+	display:table;
+}
+.container{
+	width:97%;
+	margin: 0 auto 0 auto;
+}
+/*HEADER CSS*/
+.headerOpenEmail{
+	width: 99%;
+	background-color:rgba(0,110,255,1);
+}
+.headerOpenEmail ul{
+	list-style:none;
+	padding-left:0px;
+}
+.headerOpenEmail ul li{
+	display:inline-block;
+	width:auto;
+	margin:2px;
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 3px;
+	font-size:12px;
+	cursor:pointer;
+}
+.headerOpenEmail ul li:hover{
+	background-color: white;
+}
+.headerOpenEmail img{
+	display:inline-block;
+}
+.headerOpenEmail figcaption{
+	display:none;
+}
+figure{
+	margin:2px;
+}
+.corpoOpenEmail main{
+	display:block;
+	margin: 0px;
+	padding-left:3px;
+	width:99%;
+}
+.corpoOpenEmail main form{
+	margin:0px;
+	width:99%;
+}
+.mainOpenEmail input, textarea{
+	width:99%;
+	padding:15px;
+	border: 1px solid rgba(0,110,255,1);
+	border-radius: 2px;
+	margin: 5 0px;
+}
+.mainOpenEmail textarea{
+	overflow-y:auto;
+	width:99%;
+	resize:none;
+}
+@media (min-width:620px){
+	.headerOpenEmail img{
+		margin-right:5px;
+	}
+	.headerOpenEmail figcaption{
+		display:inline-block;
+		font-size:13px;
+		vertical-align:top;
+	}
+}
+@media (min-width:670px){
+	.headerOpenEmail figcaption{
+		font-size:15px;
+	}
+}

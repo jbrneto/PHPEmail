@@ -1,0 +1,95 @@
+.container{
+	width: 93%;
+	margin: 0 auto 0 auto;
+}
+header, footer{
+	width:100%;
+	padding:2px;
+	background-color:rgba(0,110,255,1);
+	border-radius:2px 5px;
+	color:white;
+	font-style:oblique;
+}
+h2{
+	color: rgba(0,110,255,1);
+}
+form{
+	width:100%;
+	margin: 10 0px;
+	padding: 2px;
+	border: 2px solid rgba(0,110,255,1);
+	border-radius:2px 5px;
+}
+input, button{
+	width:100%;
+	border-radius: 2px;
+	padding:15px;
+	border: 1px solid rgba(0,110,255,1);
+	margin-bottom:5px;
+}
+buttongroup input, button{
+	color:white;
+	cursor:pointer;
+	background-color:rgba(0,110,255,1);
+}
+buttongroup input:hover, button:hover{
+	color: rgba(0,110,255,1);;
+	background-color: white;
+}
+.log{
+	position:relative;
+	display:none;
+	margin: 5 0px;
+	width:98%;
+	padding: 10 5px;
+	border-radius:2px 5px;
+}
+.success{
+	background-color:rgb(7,193,69);
+}
+.error{
+	background-color:rgb(235,41,31);
+}
+.log p{
+	margin:0px;
+	color: white;
+	font-style:bold;
+}
+.log figure{
+	position:absolute;
+	top:2px;
+	right:2px;
+	margin:0px;
+	cursor:pointer;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+.log figure:hover{
+	background-color:white;
+}
+@media (min-width: 900px){
+	form{
+		display:inline-block;
+		width:48%;
+		vertical-align:top;
+		border: 0px;
+		border-radius:0px;
+	}
+	#signupForm{
+		border-left: 1px solid rgb(210,210,210);
+		padding-left:10px;
+	}
+	section{
+		width: 93%;
+		margin: 0 auto 0 auto;
+	}
+	buttongroup input, button{
+		display:inline-block;
+		width:49%;
+	}
+	footer{
+		position:absolute;
+		bottom:0px;
+		width:98%;
+	}
+}

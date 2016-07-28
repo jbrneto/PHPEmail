@@ -1,0 +1,327 @@
+.container{
+	width:97%;
+	margin: 0 auto 0 auto;
+}
+.selected{
+	background-color: rgb(210,210,210);
+}
+body{
+	margin:0px;
+}
+.activeNav{
+	transform: translateX(0%);
+}
+.activeFooter{
+	height:75%;
+}
+/*------------BEGINNING of Nav CSS-----------*/
+nav{
+	z-index: 1;
+	box-shadow: 1px 1px 30px 25px black;
+	position:fixed;
+	top:0px;
+	height:100%;
+	width:90%;
+	transform: translateX(-120%);
+	background-color:white;
+	padding:5px;
+	border-radius:3px;
+	transition: 1s;
+}
+nav ul{
+	max-height:99%;
+	overflow-y:auto;
+}
+nav ul li{
+	cursor:pointer;
+	padding: 15 5px;
+	border-top: 1px solid  rgb(210,210,210);
+}
+.userInfo{
+	margin: 10 0px;
+	padding: 10px;
+	border: 1px solid rgba(0,110,255,1);
+	border-radius: 5px;
+}
+.userInfo p{
+	whidth:100%;
+	font-size: 14px;
+	margin: 0px;
+	font-weight:bold;
+	color: rgba(0,110,255,1);
+}
+nav ul li:hover{
+	background-color: rgb(210,210,210);
+}
+nav img{
+	display:inline-block;
+	margin-right:7px;
+}
+nav figcaption{
+	display:inline-block;
+}
+/*------------END of Nav CSS-----------*/
+
+/*------------BEGINNING of Header CSS-----------*/
+.invisible{
+	display:none;
+}
+editGroup{
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+}
+.headerEmails{
+	width:100%;
+	position:fixed;
+	clear:both;
+	top:0px;
+	margin:0px;
+	background-color:rgba(0,110,255,1);
+	font-style:oblique;
+}
+.headerEmails img{
+	display:inline-block;
+}
+.headerEmails ul{
+	width:99%;
+}
+.headerEmails ul li{
+	display:inline-block;
+	width:auto;
+	padding: 5px;
+	margin: 0px;
+	border: 1px solid white;
+	border-radius: 3px;
+	font-size:12px;
+	cursor:pointer;
+}
+.headerEmails ul li:hover{
+	background-color: white;
+}
+.headerEmails figcaption{
+	display:none;
+	color:black;
+}
+#fundoHeader{
+	margin:0px;
+	height:60px;
+	margin-bottom:5px;
+	width:100%;
+	border-bottom: 1px solid rgb(210,210,210);
+}
+/*------------END of Header CSS-----------*/
+
+/*------------BEGGINING of LOG CSS-----------*/
+.log{
+	position:relative;
+	display:none;
+	margin: 5 2px;
+	width:98%;
+	padding: 10 5px;
+	border-radius:2px 5px;
+}
+.success{
+	background-color:rgb(7,193,69);
+}
+.error{
+	background-color:rgb(235,41,31);
+}
+.log p{
+	margin:0px;
+	color: white;
+	font-style:bold;
+}
+.log figure{
+	position:absolute;
+	top:2px;
+	right:2px;
+	margin:0px;
+	cursor:pointer;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+.log figure:hover{
+	background-color:white;
+}
+/*------------END of LOG CSS-----------*/
+aside{
+	display:table;
+}
+ul{
+	list-style:none;
+	margin:0px;
+	padding:2px;
+}
+figure{
+	margin:2px;
+}
+h1{
+	margin:0px;
+	font-size:35px;
+	color: rgba(0,0,0, 0.7);
+}
+.search{
+	display:none;
+	width:100%;
+	border: 1px solid rgba(0,110,255,1);
+	border-radius: 2px;
+	margin: 15 0px;
+	padding:1px;
+}
+.search form{
+	margin:0px;
+}
+.search input{
+	width:99%;
+	padding:15px;
+	border: 1px solid rgba(0,110,255,1);
+	border-radius: 2px;
+	margin: 5 0px;
+}
+.search input[type="submit"]{
+	color:white;
+	cursor:pointer;
+	background-color:rgba(0,110,255,1);
+}
+.search input[type="submit"]:hover{
+	color: rgba(0,110,255,1);;
+	background-color: white;
+}
+/*------BEGINNING Table CSS-------*/
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+thead tr{
+	border: 2px solid rgba(0,110,255,1);
+	font-style:bold;
+	color:rgba(0,110,255,1);
+}
+tbody tr{
+	border: 1px solid rgb(210,210,210);
+}
+tbody tr:hover{
+	background-color:rgb(210,210,210);
+}
+tbody .show, tbody .draft{
+	cursor:pointer;
+}
+tbody p{
+	margin:2px;
+	text-align:center;
+}
+tfoot tr{
+	cursor:pointer;
+	background-color:rgba(0,110,255,1);
+	border: 2px solid rgba(0,110,255,1);
+}
+tfoot tr:hover{
+	background-color:white;
+}
+tfoot td{
+	text-align:center;
+	font-style:bold;
+	font-size:20px;
+}
+footer{
+	display:none;
+}
+/*---------END of Table CSS--------*/
+
+
+@media (min-width:620px){
+	.headerEmails img{
+		margin-right:5px;
+	}
+	.headerEmails figcaption{
+		display:inline-block;
+		font-size:13px;
+		vertical-align:top;
+	}
+	.search input[type="text"]{
+		width:80%;
+	}
+	.search input[type="submit"]{
+		width:15%;
+	}
+}
+
+
+@media (min-width:670px){
+	.headerEmails figcaption{
+		font-size:15px;
+	}
+}
+
+
+@media (min-width:915px){
+	/*DESKTOP*/
+	nav{
+		z-index:0;
+		transform: translateX(0%);
+		width:19%;
+		box-shadow:none;
+		border-right: 1px solid rgb(210,210,210);
+	}
+	.corpoEmails .btnMenu{
+		display:none;
+	}
+	.headerEmails{
+		width:80%;
+		right:0px;
+	}
+	.headerEmails figcaption{
+		font-size:19px;
+	}
+	.corpoEmails main{
+		width:80%;
+		float:right;
+		margin-bottom:35px;
+	}
+	footer{
+		display:none;
+		position:fixed;
+		width:50%;
+		height:4%;
+		bottom:0px;
+		right:1px;
+		padding: 2px;
+		background-color: rgb(210,210,210);
+		border: 1px solid rgb(210,210,210);
+		border-radius: 3px;
+	}
+	.head{
+		position:relative;
+		margin: 2 2 10 2px;
+		cursor:pointer;
+	}
+	.head h4{
+		margin:1px;
+	}
+	#closeNewEmail{
+		position:absolute;
+		cursor:pointer;
+		top:0px;
+		right:2px;
+		margin:0px;
+		font-weight:bold;
+		font-size:15px;
+		border: 1px solid black;
+		border-radius: 3px;
+		padding:2px;
+	}
+	#closeNewEmail:hover{
+		background-color: white;
+		border-color:white;
+		color:rgb(231,49,39);
+	}
+	#newEmail{
+		display:table;
+		height:93%;
+		background-color: white;
+		border: 1px solid white;
+		border-radius: 3px;
+		padding: 2px;
+	}
+}
