@@ -37,10 +37,10 @@ Especificações funcionais:
   - Marca emails como SPAM
   - Exclui emails
 
-OBS:Project not completed on a better user experience, once that it was developed aiming PHP knowledge obtain.
+PS:Project not completed on a better user experience, once that it was developed aiming PHP knowledge obtain.
 
 OBS:Projeto não finalizado quanto a melhor experiência do usuário uma vez que foi desenvolvido visando a obtenção de conhecimento em PHP.
 
-OBS2: The project will be resumed in future to finish the dependencies of user experience.
+PS2: The project will be resumed in future to finish the dependencies of user experience.
 
 OBS2: O projeto será retomado futuramente para término quanto as pendências da experiência do usuário com o sistema.
